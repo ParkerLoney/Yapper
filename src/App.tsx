@@ -11,8 +11,8 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import tweetsData from "./data/tweets.json"
-import type { Tweet } from "./types/Tweet";
-import React, { useEffect, useState } from "react";
+import type { Tweet } from "./type/Tweets";
+import { useEffect, useState } from "react";
 import { supabase } from "./utils/supabase";
 
 function App() {
